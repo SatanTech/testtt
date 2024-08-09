@@ -9,11 +9,11 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/SandakanVPNTrickster/Scrip-Bot/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/SatanTech/testtt/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
 ### PERINTAH UPDATE
-<pre><code>wget https://raw.githubusercontent.com/SandakanVPNTrickster/Scrip-Bot/main/files/update.sh && chmod +x update.sh && ./update.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/SatanTech/testtt/main/files/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### PORT INFO
 ```
