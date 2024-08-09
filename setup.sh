@@ -250,7 +250,7 @@ function nginx_install() {
 
 function udp_custom() {
 print_install "Memasang UDP CUSTOM"
-wget -q ${REPO}files/udp-custom.sh && chmod +x * && ./udp-custom.sh" >/dev/null 2>&1
+wget -q ${REPO}files/udp-custom.sh && chmod +x * && ./udp-custom.sh >/dev/null 2>&1
 }
 
 # Update and remove packages
@@ -291,9 +291,9 @@ echo -e ""
 clear
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
-echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Domain pribadi"
-echo -e "     \e[1;32m2)\e[0m Random Domain "
+echo -e "   ----------------------------------"
+echo -e "      Domain pribadi"
+echo -e "      Random Domain "
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
@@ -653,7 +653,7 @@ function ins_dropbear(){
 clear
 print_install "Menginstall Dropbear"
 # // Installing Dropbear
-apt-get install dropbear -y > /dev/null 2>&1
+apt-get install dropbear -y
 wget -q -O /etc/default/dropbear "${REPO}cfg_conf_js/dropbear.conf"
 chmod +x /etc/default/dropbear
 /etc/init.d/dropbear restart
